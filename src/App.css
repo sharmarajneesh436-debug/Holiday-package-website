@@ -596,8 +596,10 @@ html {
   padding: 20px;
 
   background: rgba(0, 0, 0, 0.45);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
+ -webkit-backdrop-filter: blur(8px) !important;
+backdrop-filter: blur(8px) !important;
+  /* backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px); */
 }
 
 .Package-modal-content {
@@ -611,8 +613,10 @@ html {
   padding: 35px;
 
   background: rgba(255, 255, 255, 0.82);
-  backdrop-filter: blur(18px);
-  -webkit-backdrop-filter: blur(18px);
+  /* backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px); */
+  backdrop-filter: blur(8px) !important;
+-webkit-backdrop-filter: blur(8px) !important;
 
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 20px;
